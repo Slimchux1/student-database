@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>school management system</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container text-center flex">
+                <h1 class="main-logo">School.</h1>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="index.html">Student Database</a></li>
+                        <li><a href="./html/docs.html">Staff Database</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-------------mobile navbar---------------->
+      <!---  <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <div class="logo">
+            <h2>School.</h2>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="home.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                     <a href="index.html" class="nav-link">Student Database</a>
+                 </li>
+                 <li>
+                        <a href="#services" class="nav-link">Staff Databass</a>
+                 </li>
+                 <li>
+                        <a href="#portfolio" class="nav-link">Contact</a>
+                    </li>
+                  </ul>
+        </nav>---->
+    </header>
+
+
+    <div class="main">
+        <div class="container">
+       
+            <h1 class="form-text">Register your wards with us!!</h1>
+            <div id="error_msg"></div>
+            <div class="name-content">
+                <label for="name">Name:</label>
+                <input id="lname" type="text" required />
+            </div>
+            <div class="name-content">
+                <label for="name">Age:</label>
+                <input id="age" type="text"  required />
+            </div>
+            <div class="name-content">
+                <label for="sex">Select gender</label>
+                <select name="mask" id="face_mask">
+                    <option value="male" selected>Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="name-content">
+                <label for="pNum">Phone Number:</label>
+                <input id="phonenum" type="text" required />
+            </div>
+            <div class="name-content">
+                <label for="name">Fee Paid:</label>
+                <input id="fees" type="text" required />
+            </div>
+            <div class="name-content">
+                <label for="addre">Address:</label>
+                <input id="adres" type="text" required />
+            </div>
+          
+                <button class="submit" >Register</button>
+        </div>
+     
+    </div>
+
+    <div class="display">
+       <!--- <div class="btn-display">
+        <input type="button" value="View Student Database" id="btn_student">
+        </div>
+       <div class="student-displays">
+            <h2 class="registered-stud">List of Registered Student</h2><div class="display-section grid"></div>
+            
+             <div class="display-text">
+               <----<div class="disp"> <p class="reg-text">
+                    Adamu who is a male with phone number 000000 and address abuja has registered and
+                     paid the sum of #1000 as fees with balance of #oo
+                </p></div>--
+                </div> 
+            </div>
+        </div>---->
+    </div>
+    
+  
+    <script src="app.js"></script>
+</body>
+</html>

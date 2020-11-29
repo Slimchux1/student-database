@@ -1,0 +1,131 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    color: #333;
+    letter-spacing: .6px;
+  }
+ .main .container{
+    margin: 5% 30%;
+  }
+  .form-text{
+   text-align: center;
+   padding-top: 10px;
+   font-size: 1.5rem;
+   padding-bottom: 20px;
+  }
+  .name-content input[type='text'], .name-content input[type='number']{
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    outline: 0;
+    background-color: #fff;
+    color: #333;
+
+  }
+  #error_msg{
+    width: 95%;
+   padding: 0px;
+    margin-top: .1rem;
+    margin-bottom: 10px;
+    background:  #fece0c;
+    opacity: .5;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    transition: all 0.5s ease;
+   
+}
+  .name-content input:focus, select:focus{
+    outline: none;
+  }
+  select, option {
+    font-size: 1rem;
+    background-color: #fff;
+    border: 0;
+    color: #333;
+    outline: 0;
+    margin-bottom: 1rem;
+  }
+  .submit {
+    text-align: center;
+    font-size: 1rem;
+    width: 50%;
+    color: #333;
+   background-color: #fece0c;
+   border: 0;
+   border-radius: 10px 10px 10px;
+   height: 3rem;
+   margin-bottom: 2rem;
+   margin-top: 1rem;
+   outline: 0;
+  }
+  .btn-content {
+  text-align: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+/************************HOME**********************************/  
+.home {
+    padding-left: 4rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    color: #333;
+}
+.home-container .grid{
+    grid-template-columns: 3fr, 1fr;
+    gap: 3rem
+}
+.home-img img {
+    width: 100%;
+}
+.home-text {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-display{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.btn-display input[type='button'] {
+    width: 18%;
+    height: 2rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #333;
+    background-color: #fece0c;
+}
+.registered-stud{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.reg-text{
+    margin-bottom: 2rem;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.reg-text:first-child { border-top: 1px solid #e7e7e7; }
+.reg-text:nth-child(even) { background-color: #f7f7f7; }
+.text-conclude {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.student-displays{
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
